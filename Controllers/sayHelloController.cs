@@ -2,12 +2,12 @@
 
 using Microsoft.AspNetCore.Mvc;
 
-namespace say_hello_endpoint.controller;
+namespace PantojaM_AllForOne.controller;
 
 
 [ApiController]
 [Route("[controller]")]
-    public class Controller: ControllerBase
+    public class SayHelloController: ControllerBase
     {
         public List <string> greeting = new();
         [HttpPost]
