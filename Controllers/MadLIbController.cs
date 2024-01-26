@@ -9,7 +9,7 @@ public class MadLibController : ControllerBase
 {
     private readonly IMadLibsService _madLibsService;
 
-    public MadLib(IMadLibsService madLibsService)
+    public  MadLib(IMadLibsService madLibsService)
     {
         _madLibsService = madLibsService;
     }
