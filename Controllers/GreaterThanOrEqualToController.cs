@@ -10,7 +10,7 @@ public class GreaterThanOrEqualToController : ControllerBase
 
 
     [HttpGet]
-    [Route("return")]
+    [Route("Greaterthanlessthan/{numOne}/{numTwo}")]
    public string CompareNums(string numOneString, string numTwoString)
     {
         int numOne;
